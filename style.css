@@ -2,21 +2,53 @@
     box-sizing: border-box;
 }
 
-.savaites-diena {
-    display: inline-block;
-    background-color: rgb(141, 138, 138);
-    color:rgb(5, 14, 1);
-    height: 20px;
-    text-align: center;
-    width: 200px;
+.headerio-antraste{
+    display: flex;
+    justify-content: center;
 }
-.savaites-dienos-skaiciais1 {
-    display: inline-block;
-    width: 200px;
-    background-color: rgb(197, 194, 194);
+
+.apgaubiamas1{
+    display: flex;
+    vertical-align: baseline;
+    background-color: white;
+    border: 0px;
+    }
+
+.savaites-diena {
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(169, 190, 211);
     color:rgb(5, 14, 1);
-    height: 50px;
-    flex-wrap: wrap;
-    align-content: center;
-    gap:10px;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(245, 245, 245);
+    
+}
+    .apgaubiamas{
+    display: flex;
+    vertical-align: baseline;
+    background-color: white;
+    border: 0px;
+    }
+
+    .savaites-dienos-skaiciais2 {
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(208, 223, 243);
+        color:rgb(5, 14, 1);
+        text-align: center;
+        width: 100%;
+         
+    }
+
+.savaites-dienos-skaiciais1 {
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(167, 207, 233);
+    color:rgb(5, 14, 1);
+    height: 70px;
+    text-align: right;
+    width: 100%;
+    border: 1px solid rgb(247, 247, 243);
 }
